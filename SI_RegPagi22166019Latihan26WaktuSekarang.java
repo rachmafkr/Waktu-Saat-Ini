@@ -18,8 +18,12 @@ import java.util.Date;
  */
 public class SI_RegPagi22166019Latihan26WaktuSekarang {
     public static void main(String[] args) {
+        
+        // Menentukan format tanggal dan waktu
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         Date date = new Date();
+        
+        // Memunculkan tanggal dan waktu
         System.out.println("Hari ini adalah hari : " + date);
     }
 }
